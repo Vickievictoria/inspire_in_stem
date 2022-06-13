@@ -17,7 +17,7 @@ window.title('Digital clock')
 def time():
     string = strftime('%H :%M : %S %p')
     lbl.config(text = string)
-    lbl.after(600, time)
+    lbl.after(1000, time)
 
 lbl = Label(window, font = ('calibri', 30 , 'bold'),
             background = 'blue',
