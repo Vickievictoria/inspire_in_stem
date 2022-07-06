@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
+<body>
 <head>
-    <nav>
-        <a href=""></a>
+    <nav id="nav-1">
+    
         <a href=""><li>Home</li></a>
+        <li>about</li>
+        <li>wE</li>
     </nav>
+    <link rel="stylesheet"href="./css/style.css"/>
     <title>THIS IS my bLOg</title>
-    <style>
-        body{
-            background-color:grey;
-            color: white;
-        }
-        
-        div{background-color: blueviolet;}
-        p{
-            background-color: aquamarine;
-            color: blue;
-        }
-        
-    </style>
+    
 </head>
     <div>
+    <section>
         <h1>My FIRSt post</h1>
-
-        <p> my FIRST paragraph.my SENteNCE oN the paragraph</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis, possimus ipsa commodi dicta iure, odit vitae corporis nam in corrupti. Quibusdam, eum! Animi aspernatur maiores architecto cupiditate accusantium aliquid.</p>
+        <h2> THis Is aNOTHer headinG</h2>
+    
+        <p style="color:yellow"> my FIRST paragraph.my SENteNCE oN the paragraph</p>
+        <p id="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis, possimus ipsa commodi dicta iure, odit vitae corporis nam in corrupti. Quibusdam, eum! Animi aspernatur maiores architecto cupiditate accusantium aliquid.</p>
         <h3>HISTory of LOreM</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nam, quasi aliquam aut quo sint possimus labore quibusdam perspiciatis quos omnis ab velit at eaque vero repellendus reprehenderit. Ut, culpa.</p>
+        </section>
     </div>
+    <div>
+        <form>
+            <label>EnTER youR FIrSt NaMe</label>
+            <input type= "text" placeholder="Enter your name">
+            <br>
+            <input type="radio">
+            <input type="checkbox">
+
+        </form>
+        <button onclick="submitButton()">Submit</button>
+    </div>
+    <script src="./js/index.js"></script>
+</body>    
 </html>
